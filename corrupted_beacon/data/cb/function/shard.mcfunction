@@ -1,0 +1,2 @@
+summon minecraft:block_display ~ ~ ~ {Tags:["cb.beam"],block_state:"minecraft:purple_stained_glass",brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.15f,-0.15f,-0.15f],scale:[0.3f,0.3f,0.3f]}}
+summon minecraft:block_display ~ ~ ~ {Tags:["cb.beam"],block_state:"minecraft:white_concrete",brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.07f,-0.07f,-0.07f],scale:[0.14f,0.14f,0.14f]}}

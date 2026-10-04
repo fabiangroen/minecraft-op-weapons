@@ -24,6 +24,6 @@ All three weapons use `carrot_on_a_stick` as the base item (right-click detectio
 ## Notes
 
 - Damage balance: the beacon and scythe use magic-style damage, which ignores armor points but is reduced by Protection enchantments, so heavily enchanted armor leaves a victim barely alive. The katana always leaves the target on half a heart.
-- The katana locks its dash direction (yaw and pitch) when the dash starts. Standing on the ground and looking down flattens the dash; in the air you can dive.
+- The katana freezes the caster completely (gravity off, position pinned, even in mid-air) while drawing and posing. Its dash direction (yaw and pitch) is locked when the dash starts. Standing on the ground and looking down flattens the dash; in the air you can dive.
 - Weapons can hurt other players. Use teams or tags if you want to exclude friends.
-- Edit-friendly tuning values are listed in the comments and function names; for example the cooldowns are `cb:finish`, `kt:end`, and `sc:finish`.
+- Edit-friendly tuning values are listed in the comments and function names; for example the cooldowns are `cb:recover`, `kt:end`, and `sc:finish`.

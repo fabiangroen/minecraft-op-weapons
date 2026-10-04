@@ -7,3 +7,6 @@ scoreboard objectives add kt.cut dummy
 scoreboard objectives add kt.yaw dummy
 scoreboard objectives add kt.pitch dummy
 scoreboard objectives add kt.dist dummy
+scoreboard objectives add kt.x dummy
+scoreboard objectives add kt.y dummy
+scoreboard objectives add kt.z dummy

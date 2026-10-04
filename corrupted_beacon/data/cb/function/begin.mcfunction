@@ -1,3 +1,4 @@
+execute if score @s cb.cd matches 1.. run return run title @s actionbar {text:"The beacon is still recharging...",color:"dark_purple"}
 scoreboard players set @s cb.timer 110
 particle minecraft:end_rod ~ ~0.1 ~ 0.8 0.1 0.8 0.1 30 force
 playsound minecraft:entity.evoker.prepare_summon player @a ~ ~ ~ 1.5 0.6

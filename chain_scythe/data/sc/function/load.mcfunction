@@ -8,7 +8,11 @@ scoreboard objectives add sc.id dummy
 scoreboard objectives add sc.link dummy
 scoreboard objectives add sc.ttl dummy
 scoreboard objectives add sc.dist dummy
+scoreboard objectives add sc.fall dummy
+scoreboard objectives add sc.y dummy
 scoreboard players set #5 sc.dist 5
+scoreboard players set #20 sc.dist 20
+kill @e[type=armor_stand,tag=sc.seat]
 # Clear leftovers from a cast interrupted by a restart
 execute as @a run function sc:unroot
 execute as @a run function sc:unhold

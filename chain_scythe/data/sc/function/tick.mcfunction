@@ -5,3 +5,4 @@ execute as @a[scores={sc.use=1..}] at @s run function sc:use
 execute as @a[scores={sc.cd=1..}] run scoreboard players remove @s sc.cd 1
 execute as @a[scores={sc.stage=1..}] at @s run function sc:cast_tick
 execute as @e[tag=sc.held] run function sc:held_tick
+execute as @a[scores={sc.fall=1..}] at @s run function sc:descent

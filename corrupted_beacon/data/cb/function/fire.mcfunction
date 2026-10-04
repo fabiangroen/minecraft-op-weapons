@@ -14,6 +14,7 @@ scoreboard players operation #t cb.dist = @s cb.timer
 scoreboard players operation #t cb.dist %= #10 cb.dist
 execute if score #t cb.dist matches 0 run tag @s add cb.dmg
 
+function cb:orbit
 playsound minecraft:block.beacon.ambient player @a ~ ~ ~ 1.5 0.5
 playsound minecraft:entity.warden.sonic_charge player @a ~ ~ ~ 0.4 1.5
 particle minecraft:dragon_breath ~ ~0.1 ~ 0.6 0.05 0.6 0.02 8 force

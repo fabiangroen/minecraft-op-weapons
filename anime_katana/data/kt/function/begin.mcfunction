@@ -3,5 +3,7 @@ execute if score @s kt.cd matches 1.. run return run title @s actionbar {text:"T
 scoreboard players set @s kt.timer 60
 attribute @s minecraft:movement_speed modifier add kt:root -1 add_multiplied_total
 attribute @s minecraft:jump_strength modifier add kt:root -1 add_multiplied_total
+attribute @s minecraft:gravity modifier add kt:root -1 add_multiplied_total
+function kt:anchor
 effect give @s minecraft:resistance 4 2 true
 playsound minecraft:item.axe.scrape player @a ~ ~ ~ 1.5 1.6
