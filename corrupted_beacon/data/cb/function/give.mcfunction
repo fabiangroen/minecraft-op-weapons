@@ -1,0 +1,1 @@
+give @s minecraft:carrot_on_a_stick[item_model="minecraft:beacon",custom_name={text:"Corrupted Beacon",color:"dark_red",italic:false},lore=[{text:"Artifact",color:"gold",italic:false},{text:"Fires a destructive beam of energy",color:"gray",italic:false}],custom_data={corrupted_beacon:1b},max_stack_size=1,unbreakable={},enchantment_glint_override=true]

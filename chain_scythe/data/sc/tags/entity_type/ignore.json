@@ -1,0 +1,12 @@
+{
+  "values": [
+    "minecraft:item",
+    "minecraft:experience_orb",
+    "minecraft:marker",
+    "minecraft:area_effect_cloud",
+    "minecraft:interaction",
+    "minecraft:block_display",
+    "minecraft:item_display",
+    "minecraft:text_display"
+  ]
+}
